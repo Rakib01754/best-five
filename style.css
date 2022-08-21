@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(124, 124, 124);
+}
+
+header {
+    background-image: url('images/stadium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    font-family: 'DynaPuff', cursive;
+    color: rgb(233, 2, 144);
+
+}
+
+main {
+    width: 90%;
+}
+
+.card {
+    height: 450px;
+}
+
+.card img {
+    height: 300px;
+}
