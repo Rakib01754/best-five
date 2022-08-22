@@ -1,5 +1,5 @@
 
-// Player Selection Area 
+// Player Selection Area Start
 
 function playerSelection(player) {
     const playerParent = player.parentNode;
@@ -20,9 +20,9 @@ function playerSelection(player) {
     return selectedPlayer;
 };
 
-// Player Selection Area 
+// Player Selection Area End
 
-// Player Budget Calculation 
+// Player Budget Calculation Area Start
 
 function getInputValueById(elementId) {
     const inputField = document.getElementById(elementId);
@@ -48,9 +48,9 @@ calculateBtn.addEventListener('click', function () {
     totalExpenseField.innerText = totalExpense;
 
 });
-// Player Budget Calculation
+// Player Budget Calculation  Area End
 
-// Total Team Cost Calculation 
+// Total Team Cost Calculation Area Start
 const calculateTotalBtn = document.getElementById('calculate-total');
 calculateTotalBtn.addEventListener('click', function () {
     const managerCost = getInputValueById('manager-field');
@@ -70,6 +70,6 @@ calculateTotalBtn.addEventListener('click', function () {
     grandTotal.innerText = overAllTotal;
 })
 
-// Total Team Cost Calculation 
+// Total Team Cost Calculation End
 
 
