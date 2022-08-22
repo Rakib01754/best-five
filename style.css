@@ -7,17 +7,19 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(38, 41, 44);
 }
 
 header {
-    background-image: url('images/stadium11.png');
+    background-image: url('images/stadium111.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    font-family: 'Lobster Two', cursive;
-    color: #c168eb;
+    height: 70vh;
+}
 
+header h1 {
+    font-family: 'Lobster Two', cursive;
+    color: rgb(0, 253, 219);
 }
 
 main {
@@ -29,10 +31,15 @@ main {
 }
 
 .card img {
-    height: 300px;
-    background-color: rgb(3, 104, 90);
+    height: 250px;
+    width: 100%;
+    background-color: white;
 }
 
 .side-menu {
-    background-color: rgb(3, 104, 90);
+    background-color: rgb(38, 41, 44);
+}
+
+footer span {
+    color: rgb(0, 253, 219);
 }
