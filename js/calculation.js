@@ -1,3 +1,12 @@
+function removeButtonDisplay() {
+    const selectedListElement = document.getElementById('selected-area');
+    const selectedNumber = selectedListElement.childElementCount;
+    const removeBtn = document.getElementById('remove-btn');
+    if (selectedNumber === 0) {
+        removeBtn.classList.remove('d-none')
+    }
+}
+
 function playerSelection(player) {
     const playerParent = player.parentNode;
     const playerParentChilds = playerParent.childNodes;
@@ -9,6 +18,7 @@ function playerSelection(player) {
         alert('আপনি আপনার দলের জন্য সর্বোচ্চ ৫ জন খেলোয়াড় নির্বাচন করতে পারবেন।');
         return;
     }
+    removeButtonDisplay();
     const playersLi = document.createElement('li');
     playersLi.innerText = playerName;
     const selectedPlayer = selectedListElement.appendChild(playersLi);
