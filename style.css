@@ -16,7 +16,7 @@ header {
     background-size: cover;
     height: 400px;
     font-family: 'DynaPuff', cursive;
-    color: rgb(233, 2, 144);
+    color: rgb(9, 211, 134);
 
 }
 
@@ -30,4 +30,9 @@ main {
 
 .card img {
     height: 300px;
+    background-color: rgb(3, 104, 90);
+}
+
+.side-menu {
+    background-color: rgb(3, 104, 90);
 }
