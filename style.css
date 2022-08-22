@@ -11,12 +11,12 @@ body {
 }
 
 header {
-    background-image: url('images/stadium.jpg');
+    background-image: url('images/stadium11.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    font-family: 'DynaPuff', cursive;
-    color: rgb(9, 211, 134);
+    font-family: 'Lobster Two', cursive;
+    color: #c168eb;
 
 }
 
